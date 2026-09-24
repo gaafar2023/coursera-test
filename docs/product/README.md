@@ -7,7 +7,10 @@ Implementation starts only after the specification and architecture are approved
 |---|---|---|
 | 1 | [Executive Product Brief](./01-executive-product-brief.md) | Draft v0.1 |
 | 2 | [Product Validation & Competitive Analysis](./02-validation-and-competitive-analysis.md) | Draft v0.1 |
-| 3–22 | Personas → PRD | Not started |
+| 3 | [Target Users & Personas](./03-target-users-and-personas.md) | Draft v0.1 |
+| 4 | [Core Product Proposition](./04-core-product-proposition.md) | Draft v0.1 |
+| 5 | [MVP Definition](./05-mvp-definition.md) | Draft v0.1 |
+| 6–22 | Feature Architecture → PRD | Not started |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 
 The Decision Log is maintained in Part 1 (§ Decision Log) until the PRD consolidates it.

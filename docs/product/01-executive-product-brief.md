@@ -85,10 +85,10 @@ cosmetic/convenience model works in this category, and also evidence that consum
 
 | Your assumption | My view | Recommendation |
 |---|---|---|
-| Four tiers (Standard / Gold / Platinum + Free) | Too many for launch. Each extra tier splits a small paying base and adds decision friction at the paywall. Comparable apps run one paid tier. | **Free + one paid tier** (monthly + annual) at launch. Add a higher tier only after data shows a segment willing to pay more (Part 9). |
+| Four tiers (Standard / Gold / Platinum + Free) | Too many for launch. Each extra tier splits a small paying base and adds decision friction at the paywall. | **Founder decision (2026-09-24): Free + two paid tiers** (each monthly + annual). See D-003. |
 | Support many leagues at launch | Every league adds data cost, settlement edge cases, QA and content. | Launch with **~8–10 competitions**: EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL, UEL, Saudi Pro League, UAE Pro League, AFC Champions League Elite. Expand based on demand. |
 | "Pick favorite club" is an onboarding step | Correct, and it is actually the core of our differentiation. | Make it mandatory (at least one), and make club leaderboards visible on the home screen. |
-| MVP includes admin + subscriptions + notifications + i18n | Mostly right, but the full subscription matrix is premature. | MVP includes **billing infrastructure + one paid tier**. The admin portal is minimal (fixtures override, settlement re-run, user moderation). |
+| MVP includes admin + subscriptions + notifications + i18n | Mostly right, but the full subscription matrix is premature. | MVP includes **billing infrastructure + both paid tiers**. The admin portal is minimal (fixtures override, settlement re-run, user moderation). |
 | Two apps at once | Splitting a founding budget across two products usually kills both. | Build App #1 to product-market-fit signals first. Share App #2 so we can check for shared infrastructure. |
 
 ## 1.8 Critical risks flagged up-front
@@ -118,10 +118,9 @@ cosmetic/convenience model works in this category, and also evidence that consum
 **In:** email/Apple/Google sign-in · league + club onboarding · fixtures · score prediction with a
 server-authoritative lock · automatic settlement · simple points (Part 7) · global/club/friends/private-group
 leaderboards (weekly + season) · profile with basic stats · push notifications with granular controls ·
-EN/AR with RTL · one paid tier via App Store/Play billing · minimal admin portal · analytics.
+EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin portal · analytics.
 
-**Out of MVP:** head-to-head challenges, comments/social feed, live match events feed, advanced stats,
-multiple paid tiers, prizes, B2B leagues, web app.
+**Out of MVP:** head-to-head challenges, comments/social feed, live match events feed, a third paid tier, prizes, B2B leagues, web app.
 
 ## 1.10 Tentative technical direction (decided in Part 11)
 
@@ -149,13 +148,16 @@ multiple paid tiers, prizes, B2B leagues, web app.
 
 | # | Date | Decision | Rationale | Status |
 |---|---|---|---|---|
-| D-001 | 2026-09-24 | No real-money wagering, no purchasable points, and no prizes in MVP | Legal/app-store risk (Apple 5.3, Google RMG policy, UAE GCGRA, KSA gambling prohibition) | Proposed |
-| D-002 | 2026-09-24 | Paid tiers never grant extra leaderboard points or multipliers | Competition integrity is the product's core value | Proposed (you required this) |
-| D-003 | 2026-09-24 | Launch with Free + 1 paid tier, not 4 | Conversion clarity, small early paying base | Proposed, needs your approval |
-| D-004 | 2026-09-24 | GCC / Arabic-first launch market; English supported from day one | Differentiation vs English-centric incumbents | Proposed, needs your approval |
+| D-001 | 2026-09-24 | No real-money wagering, no purchasable points, and no prizes in MVP | Legal/app-store risk (Apple 5.3, Google RMG policy, UAE GCGRA, KSA gambling prohibition) | **Approved** |
+| D-002 | 2026-09-24 | Paid tiers never grant extra leaderboard points or multipliers | Competition integrity is the product's core value | **Approved** |
+| D-003 | 2026-09-24 | Launch with **Free + 2 paid tiers** (not 4). The two paid tiers must be clearly differentiated, and neither affects points | Founder decision. It keeps the paywall simpler than 4 tiers while offering a premium option for power users | **Approved (founder)**, revised from my Free + 1 proposal |
+| D-004 | 2026-09-24 | GCC / Arabic-first launch market; English supported from day one | Differentiation vs English-centric incumbents | **Approved** |
 | D-005 | 2026-09-24 | Launch with ~8–10 competitions | Data cost + QA scope | Proposed |
-| D-006 | 2026-09-24 | Neutral club badges (no official crests) until image rights are confirmed | IP risk | Proposed |
-| D-007 | 2026-09-24 | Focus on App #1 until it shows traction | Budget/focus | Proposed, needs your approval |
+| D-006 | 2026-09-24 | No official crests, league logos or player photos in MVP. Use our own generated badges (club short code in the club's colours on a generic shape), include a "not affiliated" disclaimer, and license imagery later | Trademark risk. Founder delegated the decision. See Part 5 §5.7 | **Approved (delegated)** |
+| D-007 | 2026-09-24 | Focus on App #1 until it shows traction | Budget/focus | **Approved** |
+| D-008 | 2026-09-24 | Settlement SLA: points are awarded within 15 min (p95) of the provider reporting full time, and later corrections are handled by versioned re-settlement | Trust. Directly answers competitor complaints | **Approved** |
+| D-009 | 2026-09-24 | Private groups (with WhatsApp invite links) and club leaderboards are in the MVP | They are the growth engine and the core differentiator (see Part 5) | Proposed |
+| D-010 | 2026-09-24 | North-star metric: Weekly Predicting Users (WPU) | Measures the core habit, not vanity installs (Part 4) | Proposed |
 
 ## Open Questions (need your input)
 

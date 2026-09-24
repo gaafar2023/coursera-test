@@ -83,7 +83,7 @@ it first.
 | Tempting feature | Why not now |
 |---|---|
 | Cash or physical prizes | Legal/app-store classification risk (see 2.7) |
-| Four subscription tiers | Conversion friction, small paying base |
+| More than two paid tiers | Conversion friction, small paying base (founder chose Free + 2 paid, D-003) |
 | Live in-match predictions ("next goal") | Much higher data cost, latency engineering, and it resembles in-play betting |
 | Comments / social feed | Moderation cost, legal exposure, not core to the loop |
 | AI "expert predictions" | Can bias users, adds cost, looks like tipster/betting content |
