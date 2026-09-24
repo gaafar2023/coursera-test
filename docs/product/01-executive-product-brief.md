@@ -1,0 +1,162 @@
+# PART 1 — Executive Product Brief
+
+> Working title: **[App Name TBD]** (naming happens in Part 18)
+> Status: Draft v0.1 for founder review · Date: 2026-09-24
+> Scope: App #1 of 2 (football match prediction). App #2 is out of scope until you share it.
+
+---
+
+## 1.1 One-line summary
+
+A free-to-play, **Arabic-first and English** football prediction game where fans predict scores for the
+leagues and clubs they care about, earn virtual points, and compete with friends, their country and,
+most importantly, **other clubs' fans**. There is no money wagering of any kind.
+
+## 1.2 The problem, stated honestly
+
+"Predicting football scores" is not a problem on its own. Fans already do it for free in group chats,
+on social media and in apps such as Superbru and Sky Super 6. The real jobs a fan wants done are:
+
+| Job to be done | What fans do today | Why that is unsatisfying |
+|---|---|---|
+| "Prove I know football better than my friends" | Arguing in WhatsApp groups, screenshots of predictions | Nobody keeps score, and results get disputed or forgotten |
+| "Represent my club" | Social-media rivalry (e.g. Al Hilal vs Al Nassr, Madrid vs Barça) | Nothing measures it and there is no structured competition |
+| "Make every match matter to me, not just my team's" | Fantasy football, betting | Fantasy is complex and time-heavy. Betting is haram for many users in our core market and illegal in several of them |
+| "Have a reason to talk football with my group every week" | Office and family sweepstakes by hand | Someone has to administer it manually |
+
+**Our proposition is structured bragging rights**: a trustworthy, automatic scorekeeper for football
+opinions, organized around club identity and private groups.
+
+## 1.3 Who it is for (detail in Part 3)
+
+- **Primary launch segment (assumption to validate):** Arabic-speaking football fans aged 18–35 in the
+  GCC (Saudi Arabia and the UAE first). They follow both their local league (Saudi Pro League, UAE Pro
+  League) and a European club. Smartphone use in Saudi Arabia is among the highest in the world,
+  and football dominates sports interest there ([DataReportal Digital 2026: Saudi Arabia](https://datareportal.com/reports/digital-2026-saudi-arabia);
+  [Gulf Tech News, June 2026](https://gulftech-news.com/en/2026/06/01/fifa-world-cup-2026-sparks-fan-momentum-in-saudi-arabia-with-9-in-10-of-tiktok-users-following-football/)).
+- **Secondary segment:** English-speaking fans worldwide. Superbru and others already serve this crowded
+  market, so we do not lead with it.
+- **Tertiary / B2B:** companies, universities and fan clubs running private leagues. This is a future
+  revenue stream, not an MVP feature.
+
+## 1.4 Core loop
+
+```
+Pick match → Predict score (≤10 s) → Kickoff locks prediction (server time)
+   → Watch live: "you'd get +5 if it ends like this" → Auto-settlement minutes after full time
+   → Points + XP + rank change → Push: "You climbed 24 places / Al Hilal fans now #1"
+   → Next matchday is already open → repeat
+```
+
+The loop must be **fast**. Users complain publicly that a leading competitor takes 2–3 hours to update
+results after a game ([Superbru on Google Play](https://play.google.com/store/apps/details?id=properties.superbru&hl=en), user reviews).
+Settlement within ~5–15 minutes of the official final whistle is a product requirement, not a
+nice-to-have.
+
+## 1.5 What makes it different (hypotheses, validated in Part 2)
+
+1. **Club-vs-club fan leaderboards as the headline feature**, not a hidden filter. "Which fan base
+   predicts best?" turns individual play into tribal, shareable competition.
+2. **Arabic-first with real RTL**, and first-class Saudi Pro League, UAE Pro League and AFC coverage.
+   We did not find a well-known prediction game positioned this way (see Part 2 for how far we searched).
+3. **Speed and trust**: near-instant settlement, a transparent scoring explanation for every match, and an
+   immutable prediction record.
+4. **Halal-by-design positioning**: no betting, no odds, no gambling ads. This is both an ethical stance
+   and a marketing message in the core market.
+5. **Respectful monetization**: no interstitial ad walls (a documented competitor complaint), and paid
+   tiers never buy leaderboard points.
+
+## 1.6 Business model (summary; detail in Part 9 and Part 20)
+
+- **Freemium subscription** as the primary revenue stream: stats and insights, analytics, more private
+  groups, cosmetics, ad-free. Paid tiers **never** affect points.
+- **Sponsorship / brand-sponsored challenges** as the second stream. Brands in the GCC spend heavily on
+  football. Prizes need legal review first (see 1.8).
+- **Light, non-intrusive advertising** for free users (native units only, never mid-prediction), and
+  never gambling advertising.
+- **B2B private leagues** (corporate/university) later.
+
+Reference point: Superbru's premium tier is ~£2/month and offers ad-free, insights, more pools and a
+premium badge ([Superbru Premium](https://www.superbru.com/premium)). That is evidence the
+cosmetic/convenience model works in this category, and also evidence that consumer willingness to pay is
+**low**. We should not build a business plan that depends on high ARPU from consumers alone.
+
+## 1.7 My position on your initial assumptions (challenges)
+
+| Your assumption | My view | Recommendation |
+|---|---|---|
+| Four tiers (Standard / Gold / Platinum + Free) | Too many for launch. Each extra tier splits a small paying base and adds decision friction at the paywall. Comparable apps run one paid tier. | **Free + one paid tier** (monthly + annual) at launch. Add a higher tier only after data shows a segment willing to pay more (Part 9). |
+| Support many leagues at launch | Every league adds data cost, settlement edge cases, QA and content. | Launch with **~8–10 competitions**: EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL, UEL, Saudi Pro League, UAE Pro League, AFC Champions League Elite. Expand based on demand. |
+| "Pick favorite club" is an onboarding step | Correct, and it is actually the core of our differentiation. | Make it mandatory (at least one), and make club leaderboards visible on the home screen. |
+| MVP includes admin + subscriptions + notifications + i18n | Mostly right, but the full subscription matrix is premature. | MVP includes **billing infrastructure + one paid tier**. The admin portal is minimal (fixtures override, settlement re-run, user moderation). |
+| Two apps at once | Splitting a founding budget across two products usually kills both. | Build App #1 to product-market-fit signals first. Share App #2 so we can check for shared infrastructure. |
+
+## 1.8 Critical risks flagged up-front
+
+1. **Legal / gambling classification (HIGH).** Free-to-play with virtual points is the safe design.
+   Risk appears the moment we add **real-world prizes**, **paid entry**, or **purchasable points**.
+   Apple treats contests/sweepstakes and real-money gaming as special categories (Guideline 5.3) ([Apple App Review Guidelines](https://developer.apple.com/support/downloads/terms/app-review-guidelines/App-Review-Guidelines-English-UK.pdf)).
+   Google Play has a dedicated Real-Money Gambling, Games and Contests policy ([Play Console Help](https://support.google.com/googleplay/android-developer/answer/9877032?hl=en)).
+   The UAE now has a federal gaming regulator (GCGRA) whose remit includes sports wagering and
+   online gaming, and commentators say prize-based competitions are no longer a grey area there
+   ([GCGRA](https://www.gcgra.gov.ae/en/); [Global Law Experts](https://globallawexperts.com/esports-events-uae/)).
+   Saudi Arabia prohibits gambling. **We need local counsel before any prize feature.** MVP: no cash, no prizes, and points cannot be bought.
+2. **Data licensing & IP (HIGH).** Club crests, league logos and player images are trademarked and
+   licensed separately from match data. Many API plans license **data**, not **logos**.
+   MVP should use club names + neutral color badges unless we confirm media rights in the data contract.
+3. **Seasonality (MEDIUM).** European leagues pause in June–July. Mitigation: tournaments (the AFC Asian
+   Cup 2027 is hosted in Saudi Arabia, per the [Saudi Press Agency](https://www.spa.gov.sa/en/N2549314)), summer friendlies, and off-season challenges.
+4. **Cold start (MEDIUM).** Leaderboards and groups are empty at launch. Mitigation: private groups as the
+   acquisition wedge (a user invites their existing WhatsApp group), plus club leaderboards that are
+   meaningful even at a small scale.
+5. **Competition from free big-prize games (MEDIUM).** Sky Super 6 offers £250,000+ jackpots for free
+   ([Sky Super 6](https://super6.skysports.com/)). We cannot outbid broadcasters on prizes, so we compete on
+   identity, community and local relevance instead.
+
+## 1.9 Recommended scope for MVP (preview; full reasoning in Part 5)
+
+**In:** email/Apple/Google sign-in · league + club onboarding · fixtures · score prediction with a
+server-authoritative lock · automatic settlement · simple points (Part 7) · global/club/friends/private-group
+leaderboards (weekly + season) · profile with basic stats · push notifications with granular controls ·
+EN/AR with RTL · one paid tier via App Store/Play billing · minimal admin portal · analytics.
+
+**Out of MVP:** head-to-head challenges, comments/social feed, live match events feed, advanced stats,
+multiple paid tiers, prizes, B2B leagues, web app.
+
+## 1.10 Tentative technical direction (decided in Part 11)
+
+- **Mobile:** Flutter (one codebase, strong RTL/Arabic text support, consistent rendering). This is tentative and will be compared against React Native in Part 11.
+- **Backend:** a modular monolith (TypeScript/NestJS or Python/FastAPI, TBD in Part 11) on PostgreSQL + Redis.
+  Leaderboards use Redis sorted sets. Settlement runs as an idempotent worker queue. The server clock is the sole source of truth.
+- **Football data:** API-Football and Sportmonks are the leading candidates. The final pick happens after a
+  coverage and licensing check for Saudi and UAE leagues (see Part 2.6 and Part 13).
+
+## 1.11 Success metrics for the MVP (targets are assumptions, to be calibrated after the pilot)
+
+| Metric | Why it matters | Initial target (assumption) |
+|---|---|---|
+| Onboarding → first prediction | Core activation | ≥ 70% of sign-ups predict within the first session |
+| Predictions per active user per matchweek | Depth of engagement | ≥ 5 |
+| Week-4 retention (in-season) | Habit formation | ≥ 25% |
+| % users in ≥1 private group | Network effect / viral loop | ≥ 30% |
+| K-factor from group invites | Organic growth | ≥ 0.3 |
+| Free → paid conversion | Business viability | 2–4% (to be validated) |
+| Settlement latency p95 | Trust | ≤ 15 min after official FT |
+
+---
+
+## Decision Log (running)
+
+| # | Date | Decision | Rationale | Status |
+|---|---|---|---|---|
+| D-001 | 2026-09-24 | No real-money wagering, no purchasable points, and no prizes in MVP | Legal/app-store risk (Apple 5.3, Google RMG policy, UAE GCGRA, KSA gambling prohibition) | Proposed |
+| D-002 | 2026-09-24 | Paid tiers never grant extra leaderboard points or multipliers | Competition integrity is the product's core value | Proposed (you required this) |
+| D-003 | 2026-09-24 | Launch with Free + 1 paid tier, not 4 | Conversion clarity, small early paying base | Proposed, needs your approval |
+| D-004 | 2026-09-24 | GCC / Arabic-first launch market; English supported from day one | Differentiation vs English-centric incumbents | Proposed, needs your approval |
+| D-005 | 2026-09-24 | Launch with ~8–10 competitions | Data cost + QA scope | Proposed |
+| D-006 | 2026-09-24 | Neutral club badges (no official crests) until image rights are confirmed | IP risk | Proposed |
+| D-007 | 2026-09-24 | Focus on App #1 until it shows traction | Budget/focus | Proposed, needs your approval |
+
+## Open Questions (need your input)
+
+See [`open-questions.md`](./open-questions.md).
