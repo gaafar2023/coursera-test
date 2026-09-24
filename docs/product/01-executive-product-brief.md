@@ -158,6 +158,9 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-008 | 2026-09-24 | Settlement SLA: points are awarded within 15 min (p95) of the provider reporting full time, and later corrections are handled by versioned re-settlement | Trust. Directly answers competitor complaints | **Approved** |
 | D-009 | 2026-09-24 | Private groups (with WhatsApp invite links) and club leaderboards are in the MVP | They are the growth engine and the core differentiator (see Part 5) | Proposed |
 | D-010 | 2026-09-24 | North-star metric: Weekly Predicting Users (WPU) | Measures the core habit, not vanity installs (Part 4) | Proposed |
+| D-011 | 2026-09-24 | Expansion path after KSA/UAE: other Arab markets (candidates: Qatar, Kuwait, Bahrain, Oman, Egypt, Jordan, Morocco), each adding its local league and needing its own legal check | Founder decision. Arabic-first design carries over directly | **Approved (founder)** |
+| D-012 | 2026-09-24 | No fixed launch date and no team yet. Plan for a lean, validation-first path, with the build solo, outsourced, or a small hire decided per phase (Part 19/20) | Founder decision | **Approved (founder)** |
+| D-013 | 2026-09-24 | Project moves to its own repository | Project hygiene | **Approved (founder)**, name pending |
 
 ## Open Questions (need your input)
 
