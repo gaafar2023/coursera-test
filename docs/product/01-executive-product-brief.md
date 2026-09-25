@@ -166,6 +166,12 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-016 | 2026-09-24 | **Very small budget → lean build.** Prefer managed services with free tiers, a single low-cost data provider, and no paid tools that aren't essential. Validate with the concierge league before spending | Founder budget constraint | **Approved (founder)** |
 | D-017 | 2026-09-24 | Founder's existing KSA/UAE counsel review: T&Cs, privacy policy, age gate, badge/IP approach, and the "no prizes" design | Counsel available | **Approved** |
 | D-018 | 2026-09-24 | Cold start via founder's fan-community, influencer and club network (seed the concierge league and the beta) | Founder has these relationships | **Approved** |
+| D-019 | 2026-09-25 | Scoring MVP: exact 5 / result + GD 3 / result 2; 90-min result for all matches; void on cancel/award/long postponement | Simple and explainable (Part 7) | Proposed (Q-13, Q-14) |
+| D-020 | 2026-09-25 | Club-vs-club = mean points of active fans, min 30 active fans; primary club changeable once per season | Rewards quality, not fan-base size (Part 8) | Proposed (Q-15) |
+| D-021 | 2026-09-25 | Game week = Tuesday 04:00 → Tuesday 03:59 Asia/Riyadh | Keeps Monday-night games in the weekend round, starts with the UCL | Proposed |
+| D-022 | 2026-09-25 | Community prediction distribution hidden until the user has saved a prediction (or after lock) | Avoids herding bias | Proposed |
+| D-023 | 2026-09-25 | Billing through RevenueCat (free tier), with our backend as the entitlement source of truth; enrol in Apple's Small Business Program | Saves weeks for a lean build (Part 9) | Proposed |
+| D-024 | 2026-09-25 | 7-day free trial on annual plans only; ads off until ~5k WPU, native-only and never gambling | Retention + UX (Part 9) | Proposed |
 
 ## Open Questions (need your input)
 

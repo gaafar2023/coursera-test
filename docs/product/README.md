@@ -13,7 +13,9 @@ Implementation starts only after the specification and architecture are approved
 | 6 | [Feature Architecture](./06-feature-architecture.md) | Draft v0.1 |
 | 7 | [Prediction & Scoring System](./07-prediction-and-scoring-system.md) | Draft v0.1 |
 | 8 | [Gamification System](./08-gamification-system.md) | Draft v0.1 |
-| 9–22 | Subscription → PRD | Not started |
+| 9 | [Subscription & Monetization](./09-subscription-and-monetization.md) | Draft v0.1 |
+| 10 | [UX/UI Architecture](./10-ux-ui-architecture.md) | Draft v0.1 |
+| 11–22 | Technical Architecture → PRD | Not started |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 
 The Decision Log is maintained in Part 1 (§ Decision Log) until the PRD consolidates it.
