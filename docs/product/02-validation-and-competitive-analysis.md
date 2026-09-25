@@ -154,6 +154,7 @@ and revenue numbers. We do not have reliable sources for these yet. A paid app-i
 how common those pain points are.*
 
 ### Other observations
+- **Tawako3aty** (App Store): an Arabic-market prediction app where users vote on real matches, collect points and **win prizes**, competing with friends ([App Store](https://apps.apple.com/us/app/-/id1468606973)). It shows Arabic demand exists. Its prize model is the side of the line our No-Gambling Charter avoids (added 2026-09-25).
 - **Official league apps and fan apps** (e.g. the Premier League and clubs) periodically run predictor games
   with prizes. They have brand power but are single-league and are not built around multi-club rivalry.
 - **Tipster / "prediction" websites** for the Saudi Pro League (Forebet, predictZ, etc.) dominate search results for

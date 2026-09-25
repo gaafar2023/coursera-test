@@ -22,7 +22,8 @@ Implementation starts only after the specification and architecture are approved
 | 15 | [Admin Dashboard](./15-admin-dashboard.md) | Draft v0.1 |
 | 16 | [Analytics](./16-analytics.md) | Draft v0.1 |
 | 17 | [Privacy, Legal & App-Store Compliance](./17-privacy-legal-compliance.md) (incl. **No-Gambling Charter**) | Draft v0.1 |
-| 18–22 | Branding → PRD | Not started |
+| 18 | [Branding & App Names](./18-branding.md) | Draft v0.1 |
+| 19–22 | Roadmap → PRD | Not started |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 | — | [Brief for Legal Counsel](./counsel-brief.md) | With founder → counsel |
 | — | [Phase 0 Test League Kit](../phase0/phase0-test-league-kit.md) + [scoring spreadsheet](../phase0/GOOOAL-Test-League-Scorer.xlsx) | Ready to use |
