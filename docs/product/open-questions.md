@@ -5,10 +5,9 @@
 | # | Question | Why it matters | My recommendation |
 |---|---|---|---|
 | Q-16 | **With counsel (founder, 2026-09-25):** under Saudi PDPL, may the MVP host Saudi users' data in a Gulf region outside KSA (UAE/Bahrain) with standard contractual clauses, or must it be hosted inside KSA from day one? | Hosting choice and cost (Part 11 §11.6) | Ask counsel before the beta |
-| Q-18 | Approve the Fan Store design: separate Coins (not Points), subscriber-only items, no coin multipliers, store opens in V1.1 (Part 8 §8.8) | Protects leaderboard fairness and budget | Approve |
 | Q-19 | Where will the company be registered: KSA commercial registration, UAE mainland, or a UAE free zone (DIFC/ADGM)? | Decides which data law applies, contracting, influencer campaigns (Part 17) | Ask counsel |
 | Q-20 | **For counsel:** a written opinion that the product sits outside gambling, UAE GCGRA commercial gaming and KSA prize-competition rules (Part 17 §17.1) | Protects the company and the app-store review | Obtain before the beta |
-| Q-22 | Create the `GOOOAL` repo on GitHub and grant the Claude GitHub App access (this session can't create repositories) | Move the docs out of coursera-test | Founder action |
+| Q-22 | Create the **`KooraCall`** repo on GitHub (Private, empty) and grant the Claude GitHub App access at claude.ai/connect-github. This session cannot create repositories | Move the docs out of coursera-test | Founder action |
 | Q-17 | **With counsel (founder, 2026-09-25):** do the retention periods and "tombstoned" prediction records on account deletion meet PDPL/GDPR (Part 12 §12.13)? | Deletion design | Ask counsel |
 
 ## Resolved
@@ -27,7 +26,8 @@
 | Q-14 | Knockout rule | **Approved**: 90-min result, ET/penalties ignored (D-019) | 2026-09-25 |
 | Q-15 | Club-vs-club formula | **Approved**: mean points of active fans, min 30 fans (D-020) | 2026-09-25 |
 | Q-21 | App name process | Community vote (FootGooal / Mudarraj / KooraCall), then counsel's trademark check (D-039) | 2026-09-25 |
-| Q-08 | Repository name | **GOOOAL**, private (D-038, replaces Footdiction) | 2026-09-25 |
+| Q-08 | Repository name | **KooraCall**, private (D-040; replaces GOOOAL/Footdiction) | 2026-09-25 |
+| Q-18 | Fan Store design | **Approved**: separate Coins, subscriber-only items, no multipliers, store in V1.1 (D-033) | 2026-09-25 |
 | Q-09 | Communities / influencers | Founder has many relationships (D-018) | 2026-09-24 |
 | Q-10 | Competitions | 8: SPL, UAE PL, EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL (D-005) | 2026-09-24 |
 | Q-11 | Minimum age | 16+ until counsel confirms (D-014) | 2026-09-24 |
