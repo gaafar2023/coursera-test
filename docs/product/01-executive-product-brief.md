@@ -181,6 +181,9 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-031 | 2026-09-25 | The provider is never called from the app; one adapter interface; raw payloads kept 90 days | Security, cost, provider independence | Proposed |
 | D-032 | 2026-09-25 | All app writes go through versioned, idempotent RPCs that return the server time | Integrity + safe retries | Proposed |
 | D-033 | 2026-09-25 | Fan Store with a separate earn-only currency (Coins = earned points 1:1 + bonuses). Cosmetics only; some items need Plus/Pro; no coin multipliers; Coins never sold, cashed out, transferred or used in random rewards. Coins ledger in MVP, store in V1.1 | Founder idea, adjusted so shopping never lowers rank (Part 8 §8.8) | Proposed (Q-18) |
+| D-034 | 2026-09-25 | PostHog for product analytics (no session replay, random analytics ID), Crashlytics for crashes, our DB for business truth | Privacy-first, free at our scale (Part 16) | Proposed |
+| D-035 | 2026-09-25 | Anti-cheat enforcement ladder: flag → hidden from public boards → warn → suspend → ban, all audited and appealable | Integrity without false accusations (Part 14) | Proposed |
+| D-036 | 2026-09-25 | The admin console never edits tables directly: all writes go through audited RPCs, with MFA and role-based access | Admin-abuse prevention (Parts 14, 15) | Proposed |
 
 ## Open Questions (need your input)
 

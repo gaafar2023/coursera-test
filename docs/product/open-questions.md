@@ -9,11 +9,11 @@
 | Q-13 | Approve the MVP scoring model (Part 7 §7.5: exact 5 / goal difference 3 / outcome 2) | Core rule | Approve |
 | Q-14 | Approve the knockout rule: score on the 90-minute result (+ stoppage time), ignore extra time and penalties (Part 7 §7.4) | Core rule | Approve |
 | Q-15 | Approve the club-vs-club ranking formula (Part 8 §8.5) | Core differentiator | Approve |
-| Q-16 | **For counsel:** under Saudi PDPL, may the MVP host Saudi users' data in a Gulf region outside KSA (UAE/Bahrain) with standard contractual clauses, or must it be hosted inside KSA from day one? | Hosting choice and cost (Part 11 §11.6) | Ask counsel before the beta |
+| Q-16 | **With counsel (founder, 2026-09-25):** under Saudi PDPL, may the MVP host Saudi users' data in a Gulf region outside KSA (UAE/Bahrain) with standard contractual clauses, or must it be hosted inside KSA from day one? | Hosting choice and cost (Part 11 §11.6) | Ask counsel before the beta |
 | Q-18 | Approve the Fan Store design: separate Coins (not Points), subscriber-only items, no coin multipliers, store opens in V1.1 (Part 8 §8.8) | Protects leaderboard fairness and budget | Approve |
 | Q-19 | Where will the company be registered: KSA commercial registration, UAE mainland, or a UAE free zone (DIFC/ADGM)? | Decides which data law applies, contracting, influencer campaigns (Part 17) | Ask counsel |
 | Q-20 | **For counsel:** a written opinion that the product sits outside gambling, UAE GCGRA commercial gaming and KSA prize-competition rules (Part 17 §17.1) | Protects the company and the app-store review | Obtain before the beta |
-| Q-17 | **For counsel:** do the retention periods and "tombstoned" prediction records on account deletion meet PDPL/GDPR (Part 12 §12.13)? | Deletion design | Ask counsel |
+| Q-17 | **With counsel (founder, 2026-09-25):** do the retention periods and "tombstoned" prediction records on account deletion meet PDPL/GDPR (Part 12 §12.13)? | Deletion design | Ask counsel |
 
 ## Resolved
 
