@@ -184,6 +184,7 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-034 | 2026-09-25 | PostHog for product analytics (no session replay, random analytics ID), Crashlytics for crashes, our DB for business truth | Privacy-first, free at our scale (Part 16) | Proposed |
 | D-035 | 2026-09-25 | Anti-cheat enforcement ladder: flag → hidden from public boards → warn → suspend → ban, all audited and appealable | Integrity without false accusations (Part 14) | Proposed |
 | D-036 | 2026-09-25 | The admin console never edits tables directly: all writes go through audited RPCs, with MFA and role-based access | Admin-abuse prevention (Parts 14, 15) | Proposed |
+| D-037 | 2026-09-25 | Repository name: **Footdiction** (private). Also a strong app-name candidate, to be assessed in Part 18 (trademark, domain, store-name and Arabic checks still needed) | Founder decision | **Approved (founder)**. Founder creates the repo (session lacks permission) |
 
 ## Open Questions (need your input)
 
