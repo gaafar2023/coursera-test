@@ -25,6 +25,6 @@ Implementation starts only after the specification and architecture are approved
 | 18–22 | Branding → PRD | Not started |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 | — | [Brief for Legal Counsel](./counsel-brief.md) | With founder → counsel |
-| — | [Phase 0 Test League Kit](../phase0/phase0-test-league-kit.md) + [scoring spreadsheet](../phase0/Footdiction-Test-League-Scorer.xlsx) | Ready to use |
+| — | [Phase 0 Test League Kit](../phase0/phase0-test-league-kit.md) + [scoring spreadsheet](../phase0/GOOOAL-Test-League-Scorer.xlsx) | Ready to use |
 
 The Decision Log is maintained in Part 1 (§ Decision Log) until the PRD consolidates it.

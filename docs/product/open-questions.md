@@ -25,7 +25,7 @@
 | Q-13 | MVP scoring | **Approved**: exact 5 / result + GD 3 / result 2 / wrong 0 (D-019) | 2026-09-25 |
 | Q-14 | Knockout rule | **Approved**: 90-min result, ET/penalties ignored (D-019) | 2026-09-25 |
 | Q-15 | Club-vs-club formula | **Approved**: mean points of active fans, min 30 fans (D-020) | 2026-09-25 |
-| Q-08 | Repository name | **Footdiction**, private (D-037) | 2026-09-25 |
+| Q-08 | Repository name | **GOOOAL**, private (D-038, replaces Footdiction) | 2026-09-25 |
 | Q-09 | Communities / influencers | Founder has many relationships (D-018) | 2026-09-24 |
 | Q-10 | Competitions | 8: SPL, UAE PL, EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL (D-005) | 2026-09-24 |
 | Q-11 | Minimum age | 16+ until counsel confirms (D-014) | 2026-09-24 |

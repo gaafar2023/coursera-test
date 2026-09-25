@@ -1,7 +1,7 @@
-# Footdiction Test League Kit (Phase 0)
+# GOOOAL Test League Kit (Phase 0)
 
 > Goal: in **4 weeks**, at almost **zero cost**, find out whether fans will predict every week, invite friends, and care about the club-vs-club table, **before** we spend money building the app. (Part 2 §2.4, experiment V3; approved Q-05.)
-> Scoring spreadsheet: [`Footdiction-Test-League-Scorer.xlsx`](./Footdiction-Test-League-Scorer.xlsx)
+> Scoring spreadsheet: [`GOOOAL-Test-League-Scorer.xlsx`](./GOOOAL-Test-League-Scorer.xlsx)
 
 ---
 
@@ -41,7 +41,7 @@ Tip: after week 1, duplicate the previous week's form (⋮ → Make a copy) and 
 
 ### 5.1 Welcome message
 **العربية**
-> ⚽ أهلاً بكم في دوري توقعات **Footdiction** التجريبي!
+> ⚽ أهلاً بكم في دوري توقعات **GOOOAL (جووول)** التجريبي!
 > كل أسبوع ننشر مباريات مختارة من الدوري السعودي والإماراتي وأقوى الدوريات الأوروبية، وتتوقعون النتيجة.
 > 🏆 النقاط: النتيجة بالضبط = 5 · الفائز وفارق الأهداف = 3 · الفائز فقط = 2
 > 🔵🟡 والأهم: أي جمهور يتوقع أفضل؟ جدول **النادي ضد النادي** كل أسبوع!
@@ -49,7 +49,7 @@ Tip: after week 1, duplicate the previous week's form (⋮ → Make a copy) and 
 > اكتب اسمك وناديك المفضل هنا للتسجيل 👇
 
 **English**
-> ⚽ Welcome to the **Footdiction** test prediction league!
+> ⚽ Welcome to the **GOOOAL** test prediction league!
 > Every week we post selected matches from the Saudi Pro League, UAE Pro League and Europe's top leagues. You predict the scores.
 > 🏆 Points: exact score = 5 · right winner + goal difference = 3 · right winner = 2
 > 🔵🟡 The big one: which fan base predicts best? A **Club vs Club** table every week!
