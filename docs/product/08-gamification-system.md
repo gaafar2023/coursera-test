@@ -138,7 +138,7 @@ eligible    = club has ≥ 30 active fans in the period (otherwise shown as "not
 | Monthly | "Finish in the top 25% of your club's fans", "Predict every El Clásico/derby this month" | XP + badge |
 | Seasonal | "Premier League Expert", "Complete 30 matchweeks" | Legendary badge + cosmetic |
 | Event | AFC Asian Cup 2027 tournament mode, UCL knockouts | Event badge |
-| Sponsored (V2) | Brand-named challenge with **XP/badge rewards only** | No prizes without legal sign-off (D-001) |
+| Sponsored (V2) | Brand-named challenge with **XP/badge rewards only** | **Never prizes** (D-001, permanent) |
 
 ## 8.8 Fan Store & Coins (founder idea, 2026-09-25; target V1.1)
 
@@ -188,7 +188,7 @@ For example, an exact score gives +5 Points (rank) and +5 Coins (wallet). Buying
 1. **Coins can never be bought with real money, exchanged for cash, or transferred between users.** This keeps them a pure game reward and avoids virtual-currency and gambling characterisation.
 2. **No random rewards (loot boxes, mystery packs).** Random paid rewards are regulated in several markets, and Apple requires odds disclosure. We sell only fixed, known items.
 3. Subscriber-exclusive items are a normal subscription benefit, delivered through the entitlements system (Part 6 §6.4).
-4. If we ever want to **sell Coins** (a possible V2 revenue stream), it goes through Apple/Google IAP only, gets a separate counsel review, and must never let purchased Coins affect Points or rank.
+4. **Coins will never be sold** (D-001, permanent). Selling an in-game currency that is earned by predicting results would blur the line with gambling.
 
 ### Build cost & timing
 - **Recommended timing: V1.1**, right after the MVP proves the weekly habit. The MVP already records the Coins ledger from day one, so early players keep their earnings when the store opens (and get a "founding fan" item).

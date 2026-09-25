@@ -1,7 +1,7 @@
 # PART 9 — Subscription & Monetization
 
 > Status: Draft v0.1 · 2026-09-25
-> Constraints: Free + 2 paid tiers (D-003, D-015). Paid tiers never affect points (D-002). No prizes or wagering (D-001).
+> Constraints: Free + 2 paid tiers (D-003, D-015). Paid tiers never affect points (D-002). No prizes, wagering or paid entry, permanently (D-001, No-Gambling Charter in Part 17).
 > Very small budget (D-016). **No final prices are set here.** §9.4 defines how we will find them.
 
 ---
@@ -20,7 +20,7 @@
 |---|---|---|---|---|---|
 | **Subscriptions (Plus/Pro)** | High | MVP | Recurring, aligned with the product, no ads needed | Low price point, needs scale | **Primary from day one** |
 | **Advertising (free tier)** | Medium | MVP (flagged, off at first) | Monetises non-payers | Hurts UX (a documented Superbru complaint); gambling-ad risk | **Native units only, strict category blocklist** (no gambling, betting, alcohol, dating). Turn on only once there are ~5k+ WPU, when revenue would be meaningful |
-| **Brand-sponsored challenges** | High in GCC | V2 | Premium CPMs, natural fit, no UX damage | Needs audience scale, and prizes need legal review | **Second pillar.** XP/badge rewards first, prizes only after counsel sign-off |
+| **Brand-sponsored challenges** | High in GCC | V2 | Premium CPMs, natural fit, no UX damage | Needs audience scale | **Second pillar.** Rewards are XP, badges and cosmetics only, **never prizes** (D-001) |
 | **Club / league partnerships** | Medium–High | V2+ | Official logos (solves D-006), credibility, distribution | Slow sales cycles, exclusivity demands | Pursue through the founder's club relationships (D-018) |
 | **Media partnerships** (sports sites, broadcasters) | Medium | V2 | Distribution + revenue share, embeddable widgets | Dependency, brand dilution | Opportunistic |
 | **B2B private leagues** (companies, universities) | Medium | V2 | Higher ARPU per organisation, seasonal renewals | Needs a web admin and invoicing | Pilot with 3–5 organisations from the founder's network |
@@ -129,5 +129,5 @@ The real question for the lean budget: **can subscriptions cover the fixed costs
 ## 9.10 Legal & store flags
 - Subscription benefits must be delivered as described. Changing a tier's contents needs notice to users.
 - No prizes of any kind are tied to paid tiers. That would create a "pay to win" or gambling characterisation.
-- Sponsored challenges with prizes are **blocked until counsel signs off** (D-017), and must follow Apple 5.3 rules.
+- Sponsored challenges never carry prizes (D-001). This keeps us outside Apple 5.3 contest rules and Saudi/UAE prize-competition licensing.
 - Auto-renewal consumer rules differ by country. KSA and UAE counsel should review the paywall copy.

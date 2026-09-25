@@ -99,7 +99,7 @@ Introduce **only** if MVP data shows score clustering (many ties) or a strategy 
 | Mechanic | Idea | Guardrail |
 |---|---|---|
 | **Upset bonus** | +1 or +2 when the user correctly predicts an outcome that < X% of the community predicted | Computed from community picks **at lock** (not odds), so there is no betting-odds dependency |
-| **Banker** (confidence pick) | One match per matchweek, points ×2 | Available to all tiers. Must be chosen before that match locks |
+| **Star Match** (confidence pick) | One match per matchweek, points ×2 | Available to all tiers, costs nothing, must be chosen before that match locks. Named to avoid betting vocabulary (the betting term "banker" is banned, Part 17) |
 | **Goal-count bonus** | +1 for the exact total goals when the result was wrong | Keeps wrong predictions interesting |
 | **Weekly perfect bonus** | Achievement only (XP), not points | Keeps points simple |
 
@@ -137,7 +137,7 @@ Ranking order: total points → number of exact scores → number of correct res
 |---|---|
 | Late submission via clock tricks or replayed requests | Server time + strict `<` lock check + idempotency keys + signed requests (Part 14) |
 | Editing after seeing team news/early events | Hard lock at kick-off. Lineups (~1 h before) are fair public information |
-| Multiple accounts to "cover" several scores (hedging on groups/boards) | Device attestation (App Attest / Play Integrity), one account per device heuristic, a verified email, and a minimum account age before prizes/featured boards. Flagged accounts are hidden from public boards pending review |
+| Multiple accounts to "cover" several scores (hedging on groups/boards) | Device attestation (App Attest / Play Integrity), one account per device heuristic, a verified email, and a minimum account age before appearing on featured boards. Flagged accounts are hidden from public boards pending review |
 | Accuracy farming (predicting only obvious matches) | The main boards rank on **total points** (volume counts). Accuracy boards need a minimum number of predictions (e.g. ≥ 20 per period) |
 | Club-hopping to join the winning fan base | Primary club can change **once per season**, and only future points count for the new club (Part 8) |
 | Group scoring abuse | Custom group scoring (Pro) affects **only that group's** board |

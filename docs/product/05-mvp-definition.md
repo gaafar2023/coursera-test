@@ -76,13 +76,13 @@ Head-to-head challenges, comments/chat, match event timeline, advanced stats, a 
 | Head-to-head challenges | | ● | | | Strong viral feature. It depends on the friends graph |
 | Tournament mode (AFC Asian Cup, UCL knockouts) | | ● | | | Timed to events |
 | Skill divisions (promotion/relegation) | | | ● | | Fixes the "hopeless" feeling at scale |
-| Advanced scoring (upset bonus, confidence "banker" pick) | | | ● | | Only after the simple model is understood (Part 7) |
+| Advanced scoring (upset bonus, "Star Match" confidence pick) | | | ● | | Only after the simple model is understood (Part 7) |
 | Match event timeline, detailed stats | | | ● | | Data cost + design effort |
 | Comments / reactions in groups | | | ● | | Moderation cost and legal exposure |
 | Public groups / fan-club communities | | | ● | | Needs moderation tooling |
 | B2B / company / university leagues (paid) | | | ● | | Needs a sales motion and a web admin |
-| Sponsored challenges (no prizes) | | | ● | | Needs an audience first |
-| Sponsored challenges **with prizes** | | | | ● ⚠️ | Legal review required (Part 17) |
+| Sponsored challenges (badges/XP only, never prizes) | | | ● | | Needs an audience first |
+| ~~Sponsored challenges with prizes~~ | | | | ❌ | **Not planned. Permanently excluded by the No-Gambling Charter (D-001, Part 17)** |
 | Web app | | | | ● | Mobile-first |
 | AI insights / "why you were wrong" explainer | | | | ● | Bias and cost concerns |
 | Official crests / club partnerships | | | | ● | Needs licensing (D-006) |

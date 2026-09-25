@@ -71,7 +71,7 @@ nice-to-have.
 - **Freemium subscription** as the primary revenue stream: stats and insights, analytics, more private
   groups, cosmetics, ad-free. Paid tiers **never** affect points.
 - **Sponsorship / brand-sponsored challenges** as the second stream. Brands in the GCC spend heavily on
-  football. Prizes need legal review first (see 1.8).
+  football. Sponsors get branded challenges with badges and XP only, never prizes (No-Gambling Charter, Part 17).
 - **Light, non-intrusive advertising** for free users (native units only, never mid-prediction), and
   never gambling advertising.
 - **B2B private leagues** (corporate/university) later.
@@ -100,7 +100,7 @@ cosmetic/convenience model works in this category, and also evidence that consum
    The UAE now has a federal gaming regulator (GCGRA) whose remit includes sports wagering and
    online gaming, and commentators say prize-based competitions are no longer a grey area there
    ([GCGRA](https://www.gcgra.gov.ae/en/); [Global Law Experts](https://globallawexperts.com/esports-events-uae/)).
-   Saudi Arabia prohibits gambling. **We need local counsel before any prize feature.** MVP: no cash, no prizes, and points cannot be bought.
+   Saudi Arabia prohibits gambling. **Founder decision (2026-09-25): the product will never include wagering, paid entry, cash or real-world prizes, or purchasable points or coins.** See the No-Gambling Charter in Part 17.
 2. **Data licensing & IP (HIGH).** Club crests, league logos and player images are trademarked and
    licensed separately from match data. Many API plans license **data**, not **logos**.
    MVP should use club names + neutral color badges unless we confirm media rights in the data contract.
@@ -148,7 +148,7 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 
 | # | Date | Decision | Rationale | Status |
 |---|---|---|---|---|
-| D-001 | 2026-09-24 | No real-money wagering, no purchasable points, and no prizes in MVP | Legal/app-store risk (Apple 5.3, Google RMG policy, UAE GCGRA, KSA gambling prohibition) | **Approved** |
+| D-001 | 2026-09-24 → 2026-09-25 | **Permanent (not just MVP):** no wagering, no paid entry, no cash or real-world prizes, no purchasable points or coins, no gambling vocabulary or advertising. Full compliance with KSA, UAE and GCC law (No-Gambling Charter, Part 17) | Founder principle + legal/app-store risk (Apple 5.3, Google RMG policy, UAE GCGRA, KSA gambling prohibition, KSA prize-competition rules) | **Approved (founder), permanent** |
 | D-002 | 2026-09-24 | Paid tiers never grant extra leaderboard points or multipliers | Competition integrity is the product's core value | **Approved** |
 | D-003 | 2026-09-24 | Launch with **Free + 2 paid tiers** (not 4). The two paid tiers must be clearly differentiated, and neither affects points | Founder decision. It keeps the paywall simpler than 4 tiers while offering a premium option for power users | **Approved (founder)**, revised from my Free + 1 proposal |
 | D-004 | 2026-09-24 | GCC / Arabic-first launch market; English supported from day one | Differentiation vs English-centric incumbents | **Approved** |

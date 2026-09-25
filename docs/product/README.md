@@ -18,7 +18,9 @@ Implementation starts only after the specification and architecture are approved
 | 11 | [Technical Architecture](./11-technical-architecture.md) | Draft v0.1 |
 | 12 | [Database Design](./12-database-design.md) | Draft v0.1 |
 | 13 | [API Strategy](./13-api-strategy.md) | Draft v0.1 |
-| 14–22 | Security → PRD | Not started |
+| 14–16 | Security → Analytics | Not started |
+| 17 | [Privacy, Legal & App-Store Compliance](./17-privacy-legal-compliance.md) (incl. **No-Gambling Charter**) | Draft v0.1 |
+| 18–22 | Branding → PRD | Not started |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 
 The Decision Log is maintained in Part 1 (§ Decision Log) until the PRD consolidates it.
