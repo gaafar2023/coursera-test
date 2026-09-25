@@ -172,6 +172,14 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-022 | 2026-09-25 | Community prediction distribution hidden until the user has saved a prediction (or after lock) | Avoids herding bias | Proposed |
 | D-023 | 2026-09-25 | Billing through RevenueCat (free tier), with our backend as the entitlement source of truth; enrol in Apple's Small Business Program | Saves weeks for a lean build (Part 9) | Proposed |
 | D-024 | 2026-09-25 | 7-day free trial on annual plans only; ads off until ~5k WPU, native-only and never gambling | Retention + UX (Part 9) | Proposed |
+| D-025 | 2026-09-25 | Flutter for iOS + Android | Most consistent Arabic RTL, one codebase, lowest cost (Part 11) | Proposed |
+| D-026 | 2026-09-25 | Supabase (Postgres, Auth, Edge Functions) + TypeScript for MVP; Postgres is the permanent source of truth | Production-grade integrity at ~$0–25/month (Part 11) | Proposed |
+| D-027 | 2026-09-25 | Prediction lock enforced inside Postgres (RPC + triggers, DB clock); revisions/ledger/audit are append-only | Tamper-proof predictions (Parts 11, 12) | Proposed |
+| D-028 | 2026-09-25 | No Redis in MVP; add at ~50k WPU or leaderboard p95 > 200 ms | Cost and simplicity | Proposed |
+| D-029 | 2026-09-25 | Gulf hosting region, pending counsel on Saudi PDPL cross-border rules; keep the stack portable to an in-KSA region | Legal + latency (Q-16) | **Needs counsel** |
+| D-030 | 2026-09-25 | API-Football as the primary data provider (pending V5 trial), Sportmonks as fallback | Cheapest fit for 8 competitions (Part 13) | Proposed |
+| D-031 | 2026-09-25 | The provider is never called from the app; one adapter interface; raw payloads kept 90 days | Security, cost, provider independence | Proposed |
+| D-032 | 2026-09-25 | All app writes go through versioned, idempotent RPCs that return the server time | Integrity + safe retries | Proposed |
 
 ## Open Questions (need your input)
 
