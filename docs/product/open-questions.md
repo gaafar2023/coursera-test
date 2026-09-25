@@ -8,6 +8,7 @@
 | Q-19 | Where will the company be registered: KSA commercial registration, UAE mainland, or a UAE free zone (DIFC/ADGM)? | Decides which data law applies, contracting, influencer campaigns (Part 17) | Ask counsel |
 | Q-20 | **For counsel:** a written opinion that the product sits outside gambling, UAE GCGRA commercial gaming and KSA prize-competition rules (Part 17 §17.1) | Protects the company and the app-store review | Obtain before the beta |
 | Q-22 | Create the **`KooraCall`** repo on GitHub (Private, empty) and grant the Claude GitHub App access at claude.ai/connect-github. This session cannot create repositories | Move the docs out of coursera-test | Founder action |
+| Q-23 | **Sign off the PRD (Part 22)** as the MVP scope, so implementation can start after Phase 0 | Gate to coding | Approve (after reading §3 and §6) |
 | Q-17 | **With counsel (founder, 2026-09-25):** do the retention periods and "tombstoned" prediction records on account deletion meet PDPL/GDPR (Part 12 §12.13)? | Deletion design | Ask counsel |
 
 ## Resolved

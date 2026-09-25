@@ -23,9 +23,16 @@ Implementation starts only after the specification and architecture are approved
 | 16 | [Analytics](./16-analytics.md) | Draft v0.1 |
 | 17 | [Privacy, Legal & App-Store Compliance](./17-privacy-legal-compliance.md) (incl. **No-Gambling Charter**) | Draft v0.1 |
 | 18 | [Branding & App Names](./18-branding.md) | Draft v0.1 |
-| 19–22 | Roadmap → PRD | Not started |
+| 19 | [Development Roadmap](./19-development-roadmap.md) | Draft v0.1 |
+| 20 | [Cost Model](./20-cost-model.md) | Draft v0.1 |
+| 21 | [Risks & Mitigation](./21-risks-and-mitigation.md) | Draft v0.1 |
+| 22 | [**Product Requirements Document (PRD)**](./22-prd.md) incl. user stories | **v1.0: awaiting founder sign-off** |
+| 26 | [Testing Strategy](./26-testing-strategy.md) | Draft v0.1 |
+| — | [**Prioritised Development Backlog**](./backlog.md) | v1.0 draft |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 | — | [Brief for Legal Counsel](./counsel-brief.md) | With founder → counsel |
 | — | [Phase 0 Test League Kit](../phase0/phase0-test-league-kit.md) + [scoring spreadsheet](../phase0/GOOOAL-Test-League-Scorer.xlsx) | Ready to use |
+
+Scalability (referenced as "Part 27") is covered in [Part 11 §11.7](./11-technical-architecture.md). User stories ("Part 25") are in the [PRD §6](./22-prd.md).
 
 The Decision Log is maintained in Part 1 (§ Decision Log) until the PRD consolidates it.
