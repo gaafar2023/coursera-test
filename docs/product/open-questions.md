@@ -4,10 +4,6 @@
 
 | # | Question | Why it matters | My recommendation |
 |---|---|---|---|
-| Q-05 | Will you run the Phase 0 concierge league (WhatsApp/Telegram + form) with your fan communities before development? | It de-risks the biggest assumptions at almost zero cost | Strongly recommended |
-| Q-13 | Approve the MVP scoring model (Part 7 §7.5: exact 5 / goal difference 3 / outcome 2) | Core rule | Approve |
-| Q-14 | Approve the knockout rule: score on the 90-minute result (+ stoppage time), ignore extra time and penalties (Part 7 §7.4) | Core rule | Approve |
-| Q-15 | Approve the club-vs-club ranking formula (Part 8 §8.5) | Core differentiator | Approve |
 | Q-16 | **With counsel (founder, 2026-09-25):** under Saudi PDPL, may the MVP host Saudi users' data in a Gulf region outside KSA (UAE/Bahrain) with standard contractual clauses, or must it be hosted inside KSA from day one? | Hosting choice and cost (Part 11 §11.6) | Ask counsel before the beta |
 | Q-18 | Approve the Fan Store design: separate Coins (not Points), subscriber-only items, no coin multipliers, store opens in V1.1 (Part 8 §8.8) | Protects leaderboard fairness and budget | Approve |
 | Q-19 | Where will the company be registered: KSA commercial registration, UAE mainland, or a UAE free zone (DIFC/ADGM)? | Decides which data law applies, contracting, influencer campaigns (Part 17) | Ask counsel |
@@ -25,6 +21,10 @@
 | Q-06 | Legal counsel | Available in KSA and UAE (D-017) | 2026-09-24 |
 | Q-07 | Team / launch date | No team, no fixed date (D-012) | 2026-09-24 |
 | Q-08a | Own repository? | Yes (D-013) | 2026-09-24 |
+| Q-05 | Phase 0 test league | **Yes**, founder will run it with their communities (kit: docs/phase0/phase0-test-league-kit.md) | 2026-09-25 |
+| Q-13 | MVP scoring | **Approved**: exact 5 / result + GD 3 / result 2 / wrong 0 (D-019) | 2026-09-25 |
+| Q-14 | Knockout rule | **Approved**: 90-min result, ET/penalties ignored (D-019) | 2026-09-25 |
+| Q-15 | Club-vs-club formula | **Approved**: mean points of active fans, min 30 fans (D-020) | 2026-09-25 |
 | Q-08 | Repository name | **Footdiction**, private (D-037) | 2026-09-25 |
 | Q-09 | Communities / influencers | Founder has many relationships (D-018) | 2026-09-24 |
 | Q-10 | Competitions | 8: SPL, UAE PL, EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL (D-005) | 2026-09-24 |
