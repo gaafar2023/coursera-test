@@ -217,7 +217,22 @@ streaks (user_id uuid, kind text CHECK (kind IN ('participation','result','exact
          current int, longest int, last_event_key text, freezes_left int,
          PRIMARY KEY (user_id, kind))
 challenges (V1.1) / user_challenges (V1.1)
+
+coins_ledger (id bigserial PK, user_id uuid NOT NULL, delta int NOT NULL,          -- APPEND-ONLY; recorded from MVP day one
+              reason text NOT NULL CHECK (reason IN ('settlement','correction','achievement','challenge','purchase','grant','admin')),
+              ref text NOT NULL, created_at timestamptz DEFAULT now(),
+              UNIQUE (user_id, reason, ref))                                         -- idempotent
+coin_balances (user_id uuid PK, balance int NOT NULL)                                -- derived; rebuildable from ledger
+store_items (id text PK, category text, name_en text, name_ar text, price_coins int NOT NULL CHECK (price_coins >= 0),
+             required_tier text NOT NULL DEFAULT 'free' CHECK (required_tier IN ('free','plus','pro')),
+             available_from timestamptz, available_to timestamptz, asset_path text, active boolean)   -- V1.1
+user_inventory (user_id uuid, item_id text REFERENCES store_items, acquired_at timestamptz,
+                source text CHECK (source IN ('purchase','monthly_grant','achievement','founding')),
+                PRIMARY KEY (user_id, item_id))                                      -- V1.1
+user_equipped (user_id uuid, slot text CHECK (slot IN ('avatar','accessory','frame','card_theme','title')),
+               item_id text, PRIMARY KEY (user_id, slot))                            -- V1.1; tier re-checked on equip/render
 ```
+`purchase_item_v1(item_id, idempotency_key)` runs in one transaction. It checks the balance ≥ price and `required_tier` ≤ the user's tier, then writes the ledger debit and the inventory row. Coins are **never** credited from store purchases or webhooks.
 
 ## 12.8 Groups & social
 

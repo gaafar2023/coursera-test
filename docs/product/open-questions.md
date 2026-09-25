@@ -10,6 +10,7 @@
 | Q-14 | Approve the knockout rule: score on the 90-minute result (+ stoppage time), ignore extra time and penalties (Part 7 §7.4) | Core rule | Approve |
 | Q-15 | Approve the club-vs-club ranking formula (Part 8 §8.5) | Core differentiator | Approve |
 | Q-16 | **For counsel:** under Saudi PDPL, may the MVP host Saudi users' data in a Gulf region outside KSA (UAE/Bahrain) with standard contractual clauses, or must it be hosted inside KSA from day one? | Hosting choice and cost (Part 11 §11.6) | Ask counsel before the beta |
+| Q-18 | Approve the Fan Store design: separate Coins (not Points), subscriber-only items, no coin multipliers, store opens in V1.1 (Part 8 §8.8) | Protects leaderboard fairness and budget | Approve |
 | Q-17 | **For counsel:** do the retention periods and "tombstoned" prediction records on account deletion meet PDPL/GDPR (Part 12 §12.13)? | Deletion design | Ask counsel |
 
 ## Resolved

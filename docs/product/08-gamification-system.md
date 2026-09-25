@@ -5,7 +5,7 @@
 
 ---
 
-## 8.1 Two currencies, clearly separated
+## 8.1 Currencies, clearly separated (Points, XP, and Coins from V1.1, see §8.8)
 
 | | **Points** | **XP** |
 |---|---|---|
@@ -139,6 +139,63 @@ eligible    = club has ≥ 30 active fans in the period (otherwise shown as "not
 | Seasonal | "Premier League Expert", "Complete 30 matchweeks" | Legendary badge + cosmetic |
 | Event | AFC Asian Cup 2027 tournament mode, UCL knockouts | Event badge |
 | Sponsored (V2) | Brand-named challenge with **XP/badge rewards only** | No prizes without legal sign-off (D-001) |
+
+## 8.8 Fan Store & Coins (founder idea, 2026-09-25; target V1.1)
+
+**Idea:** users spend what they earn from predictions in an in-app store (avatars and similar items). Some items require a subscription.
+
+**Design adjustment: a third, spendable currency called "Coins".** Leaderboard **Points** are never spent.
+If users spent Points, buying an avatar would lower their rank. That would punish shoppers, and the leaderboard would stop measuring prediction skill. So:
+
+| | Points | XP | **Coins** |
+|---|---|---|---|
+| Purpose | Rank (accuracy) | Level (participation) | **Spending** in the Fan Store |
+| Earned from | Settled predictions | Activity, achievements | **Mirrors earned points 1:1** + achievement/challenge bonuses |
+| Spent? | Never | Never | **Yes**, on cosmetic items |
+| Bought with money? | Never | Never | **Never** (see legal notes) |
+
+For example, an exact score gives +5 Points (rank) and +5 Coins (wallet). Buying an item removes Coins only, and the rank is unchanged.
+
+### Store catalogue (cosmetic only)
+| Category | Examples | Notes |
+|---|---|---|
+| Avatars | Stylised fan characters, club-colour outfits, keeper/striker poses | **Generic designs**: no real kits, crests or player likenesses (D-006) |
+| Avatar accessories | Scarves, flags, face paint in club colours, trophies | Club colours only, no logos |
+| Profile frames & banners | Stadium, derby-day, Ramadan/Eid seasonal frames | Seasonal items create returning demand |
+| Prediction card themes | Styles for shared result cards | Adds viral value |
+| Titles | "Derby Specialist", "Night Owl" | Text only, cheap to produce |
+
+### Access rules
+| Item type | Free | Plus | Pro |
+|---|:-:|:-:|:-:|
+| Standard items (bought with Coins) | ✅ | ✅ | ✅ |
+| **Plus-exclusive items** (bought with Coins, need Plus) | 🔒 visible, "Plus required" | ✅ | ✅ |
+| **Pro-exclusive items** (bought with Coins, need Pro) | 🔒 | 🔒 | ✅ |
+| Monthly free subscriber item | – | 1 item/month | 2 items/month |
+| Coins earned per point | 1× | **1×** | **1×** |
+
+- **No coin multipliers for subscribers.** Paid users get *access* to exclusive items, not a faster economy. This keeps D-002's fairness spirit.
+- If a subscription lapses, exclusive items already bought **stay owned** but can't be **equipped** until the user resubscribes. They are never deleted. The rule is stated clearly before purchase.
+- Locked items are visible in the store. That makes them a natural, non-pushy upgrade prompt (Part 9 §9.6).
+
+### Economy rules
+- **Prices:** standard items 20–150 Coins, exclusive items 100–400 Coins **[tune in beta]**. An active player earning ~20–30 points a week can afford a standard item every 1–3 weeks.
+- **Sinks & freshness:** seasonal and limited-time items. There is no resale or trading.
+- **Corrections:** if a result correction lowers points, Coins are debited too. The balance may go negative, which blocks purchases until it's positive again. This is shown transparently.
+- **Anti-farming:** Coins come only from settled predictions and achievements, which the anti-cheat rules already protect (Part 7 §7.8). Coins are non-transferable, so multi-accounts gain nothing by feeding a main account.
+
+### ⚠️ Legal & app-store guardrails (for counsel, D-017)
+1. **Coins can never be bought with real money, exchanged for cash, or transferred between users.** This keeps them a pure game reward and avoids virtual-currency and gambling characterisation.
+2. **No random rewards (loot boxes, mystery packs).** Random paid rewards are regulated in several markets, and Apple requires odds disclosure. We sell only fixed, known items.
+3. Subscriber-exclusive items are a normal subscription benefit, delivered through the entitlements system (Part 6 §6.4).
+4. If we ever want to **sell Coins** (a possible V2 revenue stream), it goes through Apple/Google IAP only, gets a separate counsel review, and must never let purchased Coins affect Points or rank.
+
+### Build cost & timing
+- **Recommended timing: V1.1**, right after the MVP proves the weekly habit. The MVP already records the Coins ledger from day one, so early players keep their earnings when the store opens (and get a "founding fan" item).
+- **Main cost is art, not code.** About 30–40 launch items. Budget options:
+  - a modular avatar system (base body + colour-tinted layers), where one set of artwork produces hundreds of club-colour combinations
+  - a single freelance illustrator
+- Code: store screen, inventory, equip, and the coin ledger. That is roughly 2–3 weeks for one developer **[estimate]**.
 
 ## 8.7 Healthy-engagement guardrails
 - Notifications are capped (see Part 10 §10.6): at most ~1 reminder per matchday, and quiet hours are respected.

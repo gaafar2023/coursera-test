@@ -71,6 +71,7 @@ Head-to-head challenges, comments/chat, match event timeline, advanced stats, a 
 | Free + 2 paid tiers | ● | | | | Founder decision (D-003) and tests A4 |
 | Live match card (score + potential points) | ◐ | ● | | | Adds excitement cheaply. The full event feed costs more API calls |
 | Full achievement system, XP levels, weekly/monthly challenges | ◐ (basic) | ● | | | Needs usage data to tune |
+| **Fan Store + Coins** (cosmetics, some subscriber-only; Part 8 §8.8) | ◐ (coins ledger only) | ● | | | Founder idea. The MVP records Coins so nobody loses earnings; the art budget arrives with V1.1 |
 | Friends (follow/add) + friends leaderboard | | ● | | | Groups cover most of the need at first |
 | Head-to-head challenges | | ● | | | Strong viral feature. It depends on the friends graph |
 | Tournament mode (AFC Asian Cup, UCL knockouts) | | ● | | | Timed to events |

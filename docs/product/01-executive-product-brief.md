@@ -180,6 +180,7 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-030 | 2026-09-25 | API-Football as the primary data provider (pending V5 trial), Sportmonks as fallback | Cheapest fit for 8 competitions (Part 13) | Proposed |
 | D-031 | 2026-09-25 | The provider is never called from the app; one adapter interface; raw payloads kept 90 days | Security, cost, provider independence | Proposed |
 | D-032 | 2026-09-25 | All app writes go through versioned, idempotent RPCs that return the server time | Integrity + safe retries | Proposed |
+| D-033 | 2026-09-25 | Fan Store with a separate earn-only currency (Coins = earned points 1:1 + bonuses). Cosmetics only; some items need Plus/Pro; no coin multipliers; Coins never sold, cashed out, transferred or used in random rewards. Coins ledger in MVP, store in V1.1 | Founder idea, adjusted so shopping never lowers rank (Part 8 §8.8) | Proposed (Q-18) |
 
 ## Open Questions (need your input)
 
