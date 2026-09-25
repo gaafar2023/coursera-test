@@ -8,7 +8,6 @@
 | Q-18 | Approve the Fan Store design: separate Coins (not Points), subscriber-only items, no coin multipliers, store opens in V1.1 (Part 8 §8.8) | Protects leaderboard fairness and budget | Approve |
 | Q-19 | Where will the company be registered: KSA commercial registration, UAE mainland, or a UAE free zone (DIFC/ADGM)? | Decides which data law applies, contracting, influencer campaigns (Part 17) | Ask counsel |
 | Q-20 | **For counsel:** a written opinion that the product sits outside gambling, UAE GCGRA commercial gaming and KSA prize-competition rules (Part 17 §17.1) | Protects the company and the app-store review | Obtain before the beta |
-| Q-21 | Final app name: (a) community vote on GOOOAL / Mudarraj / KooraCall, or (b) go straight to GOOOAL (ideally "GOOOAL Fans / جووول"), subject to counsel's trademark search? (Part 18) | Brand + legal risk | (a) |
 | Q-22 | Create the `GOOOAL` repo on GitHub and grant the Claude GitHub App access (this session can't create repositories) | Move the docs out of coursera-test | Founder action |
 | Q-17 | **With counsel (founder, 2026-09-25):** do the retention periods and "tombstoned" prediction records on account deletion meet PDPL/GDPR (Part 12 §12.13)? | Deletion design | Ask counsel |
 
@@ -27,6 +26,7 @@
 | Q-13 | MVP scoring | **Approved**: exact 5 / result + GD 3 / result 2 / wrong 0 (D-019) | 2026-09-25 |
 | Q-14 | Knockout rule | **Approved**: 90-min result, ET/penalties ignored (D-019) | 2026-09-25 |
 | Q-15 | Club-vs-club formula | **Approved**: mean points of active fans, min 30 fans (D-020) | 2026-09-25 |
+| Q-21 | App name process | Community vote (FootGooal / Mudarraj / KooraCall), then counsel's trademark check (D-039) | 2026-09-25 |
 | Q-08 | Repository name | **GOOOAL**, private (D-038, replaces Footdiction) | 2026-09-25 |
 | Q-09 | Communities / influencers | Founder has many relationships (D-018) | 2026-09-24 |
 | Q-10 | Competitions | 8: SPL, UAE PL, EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL (D-005) | 2026-09-24 |

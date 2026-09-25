@@ -112,6 +112,11 @@ The hex values are placeholders for the designer, and accessibility contrast (WC
 ## 18.6 Competitor note added to Part 2
 **Tawako3aty** is an Arabic-market prediction app on the App Store that describes points and **prizes** and competing with friends ([App Store](https://apps.apple.com/us/app/-/id1468606973)). It confirms there is demand in Arabic. Its prize model is the opposite side of our No-Gambling Charter line, which is a positioning advantage for us in KSA/UAE.
 
-## 18.7 Decisions & questions
-- **D-039:** Shortlist GOOOAL, Mudarraj and KooraCall. The final name is chosen after the community vote + counsel's trademark search.
-- **Q-21 (founder):** Do you want to (a) run the community vote on the three names, or (b) go straight to GOOOAL (preferably as "GOOOAL Fans / جووول") subject to counsel's trademark search?
+## 18.7 Founder update (2026-09-25): FootGooal replaces GOOOAL in the vote
+- The founder chose **option (a), a community vote + counsel's trademark check on the winner**, and put forward **FootGooal / فوت جووول** as their candidate in place of GOOOAL.
+- **Quick web check:** the exact spelling "FootGooal" gave no results. But **"FootGoal"** (one letter different) exists as a foosball game on the App Store ([App Store](https://apps.apple.com/us/app/footgoal/id893678161)) and a live-score app on Google Play ([Google Play](https://play.google.com/store/apps/details?id=football.live.score.tv.soccerlivescorehdTV)). That creates a **confusion and similarity risk for counsel to assess**. If FootGooal wins, a distinctive logo and store subtitle ("FootGooal: Predict & Compete") will help.
+- **The vote:** FootGooal · Mudarraj (مدرّج) · KooraCall (كورة كول). Run it in the test league (Phase 0 kit §5.6).
+
+## 18.8 Decisions & questions
+- **D-039 (updated):** Vote shortlist is FootGooal, Mudarraj and KooraCall. The final name is chosen after the community vote + counsel's trademark search.
+- **Q-21 (resolved):** (a), a community vote, then counsel checks the winner. FootGooal replaces GOOOAL on the ballot.

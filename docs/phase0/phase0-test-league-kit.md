@@ -95,6 +95,23 @@ Tip: after week 1, duplicate the previous week's form (⋮ → Make a copy) and 
    This is only a *question*: **no payment is taken** (fake-door test, Part 9 §9.4). Try 2–3 different prices across different groups.
 6. Pricing check (Van Westendorp): at what monthly price would Pro feel: too cheap to trust / a bargain / getting expensive / too expensive?
 
+### 5.6 Name vote (run it in week 2 or 3, when the group is active)
+Post as a **Telegram poll** or a **WhatsApp poll** (single choice):
+
+**العربية**
+> 🗳️ ساعدونا نختار اسم التطبيق الرسمي! أي اسم يعجبكم أكثر؟
+> 1️⃣ **FootGooal** (فوت جووول)
+> 2️⃣ **Mudarraj** (مدرّج): المدرّج، مكان الجماهير
+> 3️⃣ **KooraCall** (كورة كول): قول توقعك في الكورة
+
+**English**
+> 🗳️ Help us choose the app's official name! Which one do you like most?
+> 1️⃣ **FootGooal**
+> 2️⃣ **Mudarraj**: "the stands", where the fans are
+> 3️⃣ **KooraCall**: make your call on the koora
+
+Also ask in the week-3 survey: "Which name is easiest to remember?" and "Which name would you search for in the app store?" Record the results in the Tracking tab notes. The winner then goes to the lawyer for a trademark check (Part 18 §18.3).
+
 ## 6. What to watch (the Tracking tab does the maths)
 
 | Signal | Target | Where |
