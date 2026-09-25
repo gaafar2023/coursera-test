@@ -86,7 +86,7 @@ cosmetic/convenience model works in this category, and also evidence that consum
 | Your assumption | My view | Recommendation |
 |---|---|---|
 | Four tiers (Standard / Gold / Platinum + Free) | Too many for launch. Each extra tier splits a small paying base and adds decision friction at the paywall. | **Founder decision (2026-09-24): Free + two paid tiers** (each monthly + annual). See D-003. |
-| Support many leagues at launch | Every league adds data cost, settlement edge cases, QA and content. | Launch with **~8–10 competitions**: EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL, UEL, Saudi Pro League, UAE Pro League, AFC Champions League Elite. Expand based on demand. |
+| Support many leagues at launch | Every league adds data cost, settlement edge cases, QA and content. | **Approved: 8 competitions**: Saudi Pro League, UAE Pro League, EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL. Expand based on demand. |
 | "Pick favorite club" is an onboarding step | Correct, and it is actually the core of our differentiation. | Make it mandatory (at least one), and make club leaderboards visible on the home screen. |
 | MVP includes admin + subscriptions + notifications + i18n | Mostly right, but the full subscription matrix is premature. | MVP includes **billing infrastructure + both paid tiers**. The admin portal is minimal (fixtures override, settlement re-run, user moderation). |
 | Two apps at once | Splitting a founding budget across two products usually kills both. | Build App #1 to product-market-fit signals first. Share App #2 so we can check for shared infrastructure. |
@@ -152,7 +152,7 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-002 | 2026-09-24 | Paid tiers never grant extra leaderboard points or multipliers | Competition integrity is the product's core value | **Approved** |
 | D-003 | 2026-09-24 | Launch with **Free + 2 paid tiers** (not 4). The two paid tiers must be clearly differentiated, and neither affects points | Founder decision. It keeps the paywall simpler than 4 tiers while offering a premium option for power users | **Approved (founder)**, revised from my Free + 1 proposal |
 | D-004 | 2026-09-24 | GCC / Arabic-first launch market; English supported from day one | Differentiation vs English-centric incumbents | **Approved** |
-| D-005 | 2026-09-24 | Launch with ~8–10 competitions | Data cost + QA scope | Proposed |
+| D-005 | 2026-09-24 | Launch with 8 competitions: Saudi Pro League, UAE Pro League, EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL | Data cost + QA scope | **Approved (founder)** |
 | D-006 | 2026-09-24 | No official crests, league logos or player photos in MVP. Use our own generated badges (club short code in the club's colours on a generic shape), include a "not affiliated" disclaimer, and license imagery later | Trademark risk. Founder delegated the decision. See Part 5 §5.7 | **Approved (delegated)** |
 | D-007 | 2026-09-24 | Focus on App #1 until it shows traction | Budget/focus | **Approved** |
 | D-008 | 2026-09-24 | Settlement SLA: points are awarded within 15 min (p95) of the provider reporting full time, and later corrections are handled by versioned re-settlement | Trust. Directly answers competitor complaints | **Approved** |
@@ -161,6 +161,11 @@ EN/AR with RTL · two paid tiers via App Store/Play billing · minimal admin por
 | D-011 | 2026-09-24 | Expansion path after KSA/UAE: other Arab markets (candidates: Qatar, Kuwait, Bahrain, Oman, Egypt, Jordan, Morocco), each adding its local league and needing its own legal check | Founder decision. Arabic-first design carries over directly | **Approved (founder)** |
 | D-012 | 2026-09-24 | No fixed launch date and no team yet. Plan for a lean, validation-first path, with the build solo, outsourced, or a small hire decided per phase (Part 19/20) | Founder decision | **Approved (founder)** |
 | D-013 | 2026-09-24 | Project moves to its own repository | Project hygiene | **Approved (founder)**, name pending |
+| D-014 | 2026-09-24 | Minimum age 16+ until counsel confirms | Compliance | **Approved (founder)** |
+| D-015 | 2026-09-24 | Plus/Pro feature split as in Part 5 §5.6 | Paywall clarity | **Approved (founder)** |
+| D-016 | 2026-09-24 | **Very small budget → lean build.** Prefer managed services with free tiers, a single low-cost data provider, and no paid tools that aren't essential. Validate with the concierge league before spending | Founder budget constraint | **Approved (founder)** |
+| D-017 | 2026-09-24 | Founder's existing KSA/UAE counsel review: T&Cs, privacy policy, age gate, badge/IP approach, and the "no prizes" design | Counsel available | **Approved** |
+| D-018 | 2026-09-24 | Cold start via founder's fan-community, influencer and club network (seed the concierge league and the beta) | Founder has these relationships | **Approved** |
 
 ## Open Questions (need your input)
 

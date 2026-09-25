@@ -88,9 +88,12 @@ Head-to-head challenges, comments/chat, match event timeline, advanced stats, a 
 
 ● = included · ◐ = partial / should-have
 
-## 5.4 MVP competitions (pending Q-10)
-Premier League, La Liga, Serie A, Bundesliga, Ligue 1, UEFA Champions League, UEFA Europa League,
-Saudi Pro League, UAE Pro League (ADNOC Pro League), AFC Champions League Elite.
+## 5.4 MVP competitions (approved 2026-09-24, D-005)
+**8 competitions:** Saudi Pro League, UAE Pro League (ADNOC Pro League), Premier League, La Liga, Serie A,
+Bundesliga, Ligue 1, UEFA Champions League.
+Dropped from my original proposal: UEFA Europa League and AFC Champions League Elite. Fewer competitions means less
+data cost and QA, which suits the small budget. Both are admin-configurable additions later, as are the local leagues of
+the expansion markets (D-011).
 **Knockout settlement rule (proposal, finalised in Part 7):** predictions settle on the **90-minute result
 including stoppage time**. Extra time and penalties are ignored for scoring. This is the most common convention
 and the simplest for users to understand.

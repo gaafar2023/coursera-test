@@ -10,7 +10,10 @@ Implementation starts only after the specification and architecture are approved
 | 3 | [Target Users & Personas](./03-target-users-and-personas.md) | Draft v0.1 |
 | 4 | [Core Product Proposition](./04-core-product-proposition.md) | Draft v0.1 |
 | 5 | [MVP Definition](./05-mvp-definition.md) | Draft v0.1 |
-| 6–22 | Feature Architecture → PRD | Not started |
+| 6 | [Feature Architecture](./06-feature-architecture.md) | Draft v0.1 |
+| 7 | [Prediction & Scoring System](./07-prediction-and-scoring-system.md) | Draft v0.1 |
+| 8 | [Gamification System](./08-gamification-system.md) | Draft v0.1 |
+| 9–22 | Subscription → PRD | Not started |
 | — | [Open Questions](./open-questions.md) | Awaiting founder input |
 
 The Decision Log is maintained in Part 1 (§ Decision Log) until the PRD consolidates it.
